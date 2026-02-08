@@ -43,7 +43,7 @@ const consonantCount = getConsonantCount("Coding is fun");
 console.log(`Consonant Count: ${consonantCount}`);
 
 function getPunctuationCount(sentence) {
-  const punctuations = ".,!?;:-()[]{}\"'–";
+  const punctuations = ".,!?;:'\"-()[]{}";
   let count = 0;
 
   for (const char of sentence) {
@@ -75,3 +75,9 @@ function getWordCount(sentence) {
 
 const wordCount = getWordCount("I love freeCodeCamp");
 console.log(`Word Count: ${wordCount}`);
+
+// Test cases
+console.log(getVowelCount("Hello World!")); // 3
+console.log(getConsonantCount("Hello World!")); // 7
+console.log(getPunctuationCount("Hello, World!")); // 2
+console.log(getWordCount("This is a test.")); // 4
