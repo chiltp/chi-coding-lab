@@ -21,15 +21,15 @@ function mutation(arr) {
 }
 
 // Test cases
-console.log(mutation(["hello", "Hello"]));
-console.log(mutation(["hello", "hey"]));
-console.log(mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]));
-console.log(["Mary", "Army"]);
-console.log(mutation(["Mary", "Aarmy"]));
-console.log(mutation(["Alien", "line"]));
-console.log(mutation(["floor", "for"]));
-console.log(mutation(["hello", "neo"]));
-console.log(mutation(["voodoo", "no"]));
-console.log(mutation(["ate", "date"]));
-console.log(mutation(["Tiger", "Zebra"]));
-console.log(mutation(["Noel", "Ole"]));
+console.log(mutation(["hello", "Hello"])); // true
+console.log(mutation(["hello", "hey"])); // false
+console.log(mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])); // true
+console.log(["Mary", "Army"]); // true
+console.log(mutation(["Mary", "Aarmy"])); // true
+console.log(mutation(["Alien", "line"])); // true
+console.log(mutation(["floor", "for"])); // true
+console.log(mutation(["hello", "neo"])); // false
+console.log(mutation(["voodoo", "no"])); // false
+console.log(mutation(["ate", "date"])); // false
+console.log(mutation(["Tiger", "Zebra"])); // false
+console.log(mutation(["Noel", "Ole"])); // true
