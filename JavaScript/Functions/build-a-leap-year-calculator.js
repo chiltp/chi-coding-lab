@@ -1,4 +1,3 @@
-
 /*
 Write a function isLeapYear(year) that checks whether a given year is a leap year.
 A year is a leap year if it is divisible by 4, except years divisible by 100 unless they are also divisible by 400.

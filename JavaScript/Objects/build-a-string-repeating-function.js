@@ -2,6 +2,7 @@
 Create a function that repeats a given string (str) for num times.
 Return an empty string if num is not a positive number.
 */
+
 function repeatStringNumTimes (str, num) {
   let result = "";
   if (num <= 0) {

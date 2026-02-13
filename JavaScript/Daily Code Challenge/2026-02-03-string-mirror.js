@@ -8,8 +8,8 @@ function mirror(str) {
 }
 
 // Test cases
-console.log(mirror("Chi"));
-console.log(mirror("freeCodeCamp"));
-console.log(mirror("RaceCar"));
-console.log(mirror("helloworld"));
-console.log(mirror("The quick brown fox..."));
+console.log(mirror("Chi")); // "ChiihC"
+console.log(mirror("freeCodeCamp")); // "freeCodeCamppmacEdoCeerf"
+console.log(mirror("RaceCar")); // "RaceCarraceR"
+console.log(mirror("helloworld")); // "helloworlddlrowolleh"
+console.log(mirror("The quick brown fox...")); // "The quick brown fox......xof nworb kciuq ehT"

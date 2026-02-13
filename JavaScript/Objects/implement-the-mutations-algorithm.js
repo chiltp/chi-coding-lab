@@ -4,7 +4,6 @@ The function should return true if all letters are found, and false otherwise.
 The comparison should be case-insensitive.
 */
 
-
 function mutation(arr) {
   // Convert both strings to lowercase for case-insensitive comparison
   let str1 = arr[0].toLowerCase();

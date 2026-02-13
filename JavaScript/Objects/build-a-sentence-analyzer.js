@@ -1,16 +1,13 @@
-/**
- *
- * Create functions to analyze sentences by counting vowels, consonants,
- * punctuation marks, and words.
- *
- * Each function should take a string as input and return the respective count.
- *
- * Example Usage:
- * getVowelCount("Apples are tasty fruits") should return 9
- * getConsonantCount("Coding is fun") should return 7
- * getPunctuationCount("WHAT?!?!?!?!?") should return 9
- * getWordCount("I love freeCodeCamp") should return 4
- */
+/*
+Create functions to analyze sentences by counting vowels, consonants, punctuation marks, and words.
+Each function should take a string as input and return the respective count.
+
+Example Usage:
+- getVowelCount("Apples are tasty fruits") should return 9
+- getConsonantCount("Coding is fun") should return 7
+- getPunctuationCount("WHAT?!?!?!?!?") should return 9
+- getWordCount("I love freeCodeCamp") should return 4
+*/
 
 function getVowelCount(sentence) {
   const vowels = "aeiou";
