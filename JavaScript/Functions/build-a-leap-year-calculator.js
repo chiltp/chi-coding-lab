@@ -15,7 +15,7 @@ function isLeapYear(year) {
     // Check if divisible by 100
     if (year % 100 === 0) {
       // Check if divisible by 400
-       if (year % 400 === 0) {
+      if (year % 400 === 0) {
         return year + " is a leap year.";
         } else {
         return year + " is not a leap year.";

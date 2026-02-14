@@ -8,7 +8,7 @@ function findLongestWordLength(str) {
   let lengthOfLongestWord = strSplit[0].length;
   for (let word of strSplit) {
     if (word.length > lengthOfLongestWord) {
-       lengthOfLongestWord = word.length;
+      lengthOfLongestWord = word.length;
     }
   }
   return lengthOfLongestWord;
