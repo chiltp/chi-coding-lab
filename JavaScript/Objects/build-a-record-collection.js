@@ -1,4 +1,19 @@
-/* Update records: '' deletes prop; 'tracks' appends (create array if needed); otherwise set prop. */
+/*
+You are given an object literal representing a part of your musical album collection. Each album has a unique id number as its key and several properties describing the album.
+
+Write a function updateRecords(records, id, prop, value) that takes the following parameters:
+- records: an object containing the album collection.
+- id: the id number of the album to update.
+- prop: the name of the property to update (e.g., "artist", "albumTitle", or "tracks").
+- value: the value to set for the property.
+
+The function should modify the records object according to these rules:
+1. If value is an empty string, delete the given prop property from the album.
+2. If prop is "tracks" and value is not an empty string, add value to the end of the album's tracks array. If the album does not have a tracks property, create an empty array before adding the new value.
+3. If prop is not "tracks" and value is not an empty string, set the album's prop property to value.
+
+Return the updated records object.
+*/
 
 const recordCollection = {
   2548: {

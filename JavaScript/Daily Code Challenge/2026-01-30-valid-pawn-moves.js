@@ -24,5 +24,5 @@ function findPawnMoves(position) {
 // Test cases
 findPawnMoves("D4"); // ["D5"]
 findPawnMoves("B2"); // ["B3", "B4"]
-findPawnMoves("A7");  // ["A8"]
-findPawnMoves("H2");  // ["H3", "H4"]
+findPawnMoves("A7"); // ["A8"]
+findPawnMoves("H2"); // ["H3", "H4"]
