@@ -27,7 +27,6 @@ jobs:
           echo "# Coding Log - $(date '+%F')" >> $FILE
           echo "" >> $FILE
           echo "- Practiced JavaScript fundamentals" >> $FILE
-          echo "- Reviewed QA testing scenarios" >> $FILE
           echo "- Solved coding exercises" >> $FILE
           echo "- Learning progress maintained 🚀" >> $FILE
 
