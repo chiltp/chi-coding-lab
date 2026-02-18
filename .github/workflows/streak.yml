@@ -1,5 +1,6 @@
-/* This workflow automatically commits a change to the repository every day at 8 PM Vietnam time (UTC+7) to maintain a daily streak of commits. It also allows for manual triggering of the workflow. The commit message includes the current date to keep track of the streak.
-*/
+# This workflow automatically commits a change to the repository every day at 8 PM Vietnam time (UTC+7) to maintain a daily streak of commits.
+# It also allows for manual triggering of the workflow.
+# The commit message includes the current date to keep track of the streak.
 name: Daily Coding Streak
 
 on:
