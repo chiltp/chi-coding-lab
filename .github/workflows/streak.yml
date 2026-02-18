@@ -1,0 +1,53 @@
+/* This workflow automatically commits a change to the repository every day at 8 PM Vietnam time (UTC+7) to maintain a daily streak of commits. It also allows for manual triggering of the workflow. The commit message includes the current date to keep track of the streak.
+*/
+name: Daily Coding Streak
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # 8 PM Vietnam
+  workflow_dispatch:
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Generate coding note
+      - name: Generate coding notes
+        run: |
+          mkdir -p coding-notes
+
+          FILE="coding-notes/$(date '+%Y-%m-%d').md"
+
+          echo "# Coding Log - $(date '+%F')" >> $FILE
+          echo "" >> $FILE
+          echo "- Practiced JavaScript fundamentals" >> $FILE
+          echo "- Reviewed QA testing scenarios" >> $FILE
+          echo "- Solved coding exercises" >> $FILE
+          echo "- Learning progress maintained 🚀" >> $FILE
+
+      # Random commit message
+      - name: Commit & Push
+        run: |
+          MESSAGES=(
+            "Daily coding practice 💻"
+            "Solved problems and learned new things"
+            "Consistency > motivation"
+            "Another day, another commit"
+            "Improving step by step"
+            "Tiny progress still counts"
+            "Kept the streak alive 🔥"
+          )
+
+          RANDOM_INDEX=$((RANDOM % ${#MESSAGES[@]}))
+
+          git config user.name "chi-streak-bot"
+          git config user.email "actions@github.com"
+
+          git add .
+          git commit -m "${MESSAGES[$RANDOM_INDEX]} ($(date '+%F'))" || echo "No changes"
+          git push
