@@ -4,8 +4,6 @@
 name: Daily Coding Streak
 
 on:
-  schedule:
-    - cron: "23 14 * * *" # This runs at 12:00 UTC, which is 19:00 in Vietnam (UTC+7)
   workflow_dispatch:
 
 permissions:
