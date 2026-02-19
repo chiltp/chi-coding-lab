@@ -4,6 +4,8 @@
 name: Daily Coding Streak
 
 on:
+  schedule:
+    - cron: "52 14 * * *"
   workflow_dispatch:
 
 permissions:
