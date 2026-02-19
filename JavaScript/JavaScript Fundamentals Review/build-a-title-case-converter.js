@@ -1,3 +1,6 @@
+/* Write a function that takes a string as an argument and converts the first letter of each word to uppercase and the rest of the letters to lowercase. The function should return the modified string.
+*/
+
 function titleCase(str) {
     let words = str.toLowerCase().split(" ");
     let result = [];
