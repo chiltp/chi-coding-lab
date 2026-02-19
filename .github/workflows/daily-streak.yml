@@ -5,8 +5,11 @@ name: Daily Coding Streak
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # 8 PM Vietnam
+    - cron: "40 13 * * *"   # 8 PM Vietnam
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   auto-commit:
