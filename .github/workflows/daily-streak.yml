@@ -5,7 +5,7 @@ name: Daily Coding Streak
 
 on:
   schedule:
-    - cron: "40 13 * * *"   # 8 PM Vietnam
+    - cron: "0 12 * * *" # This runs at 12:00 UTC, which is 19:00 in Vietnam (UTC+7)
   workflow_dispatch:
 
 permissions:
@@ -31,18 +31,18 @@ jobs:
           echo "" >> $FILE
           echo "- Practiced JavaScript fundamentals" >> $FILE
           echo "- Solved coding exercises" >> $FILE
-          echo "- Learning progress maintained 🚀" >> $FILE
+          echo "- Learning progress maintained" >> $FILE
 
       # Random commit message
       - name: Commit & Push
         run: |
           MESSAGES=(
             "Daily coding practice 💻"
-            "Solved problems and learned new things"
-            "Consistency > motivation"
-            "Another day, another commit"
-            "Improving step by step"
-            "Tiny progress still counts"
+            "Solved problems and learned new things today 🎉"
+            "Consistency > motivation 🔥"
+            "Another day, another commit 😉"
+            "Improving step by step 📈"
+            "Tiny progress still counts ✨"
             "Kept the streak alive 🔥"
           )
 
