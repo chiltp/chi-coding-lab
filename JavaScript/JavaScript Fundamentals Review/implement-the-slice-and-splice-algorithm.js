@@ -4,7 +4,7 @@ function frankenSplice(arr1, arr2, index) {
     // Use slice to create a copy of arr2 and insert elements of arr1 at the specified index
     let beforeIndex = arr2.slice(0, index);
     // Get the elements after the index to be inserted
-    let afterIndex = arr2.slice(index);ß
+    let afterIndex = arr2.slice(index);
     return [...beforeIndex, ...arr1, ...afterIndex];
 }
 
