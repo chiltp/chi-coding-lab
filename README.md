@@ -9,6 +9,7 @@ A personal coding lab where I grow into JavaScript and web development through f
 * Write clean, readable, and well-structured code
 * Track my learning progress over time
 * Celebrate small wins when something finally works 🎉
+* Maintain a consistent daily coding streak through automation
 
 ## 📘 What I’m Learning
 
@@ -28,9 +29,15 @@ I’m currently following the **freeCodeCamp JavaScript curriculum (v9)** and wo
 * **JavaScript (ES6+)**
 * **Git & GitHub** for version control
 * **Markdown** for documentation
+* **GitHub Actions** to automate daily streak commits
+
+## 🔄 Daily Coding Streak
+
+This repository includes a GitHub Actions workflow that automatically commits a Markdown file daily to maintain coding consistency and visualize progress.
 
 ## 🚀 How I Use This Repo
 
 * Each folder contains practice exercises and solutions from freeCodeCamp
 * I add notes to explain concepts in my own words (future me will thank present me)
 * I revisit old code to refactor, improve readability, and apply new techniques as I learn more
+* I track consistency through an automated streak workflow
