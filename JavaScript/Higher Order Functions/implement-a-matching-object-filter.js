@@ -1,4 +1,6 @@
-/* Filters an array of objects based on whether they contain all key-value pairs from a source object. */
+/*
+Filters an array of objects based on whether they contain all key-value pairs from a source object.
+*/
 
 function whatIsInAName(collection, source) {
     // Use the filter method to iterate through each object in the collection and check if it contains all key-value pairs from the source object

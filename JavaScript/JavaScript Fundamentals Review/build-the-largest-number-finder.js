@@ -1,4 +1,5 @@
-/* Write a function that takes an array of arrays and returns an array consisting of the largest number from each provided sub-array.
+/*
+Write a function that takes an array of arrays and returns an array consisting of the largest number from each provided sub-array.
 */
 
 function largestOfAll(arr) {

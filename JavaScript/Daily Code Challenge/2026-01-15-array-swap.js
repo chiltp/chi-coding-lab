@@ -1,4 +1,5 @@
-/*Write a function that takes an array as an argument and swaps the first and last elements of the array. The function should return the modified array.
+/*
+Write a function that takes an array as an argument and swaps the first and last elements of the array. The function should return the modified array.
 */
 
 function arraySwap(arr) {

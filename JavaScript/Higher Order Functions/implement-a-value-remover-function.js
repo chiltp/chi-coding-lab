@@ -1,4 +1,6 @@
-/* Create a function that takes an array and removes all instances of the specified values */
+/*
+Create a function that takes an array and removes all instances of the specified values
+*/
 
 // Use the rest operator to gather the additional arguments into an array, then use the filter method to create a new array that excludes the specified values
 function destroyer(arr, ...args) {

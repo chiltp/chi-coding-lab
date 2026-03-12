@@ -1,5 +1,7 @@
-/* Write a function that takes two arrays and an index as arguments. The function should copy each element of the first array into the second array, in order. The function should insert the elements at the index specified. Return the resulting array. The input arrays should remain the same after the function runs.
+/*
+Write a function that takes two arrays and an index as arguments. The function should copy each element of the first array into the second array, in order. The function should insert the elements at the index specified. Return the resulting array. The input arrays should remain the same after the function runs.
 */
+
 function frankenSplice(arr1, arr2, index) {
     // Use slice to create a copy of arr2 and insert elements of arr1 at the specified index
     let beforeIndex = arr2.slice(0, index);

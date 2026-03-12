@@ -1,4 +1,5 @@
-/* Drop the elements of an array (first argument), starting from the front, until the predicate (second argument) returns true. Then return the rest of the array, otherwise, return an empty array.
+/*
+Drop the elements of an array (first argument), starting from the front, until the predicate (second argument) returns true. Then return the rest of the array, otherwise, return an empty array.
 */
 
 function dropElements(arr, func) {

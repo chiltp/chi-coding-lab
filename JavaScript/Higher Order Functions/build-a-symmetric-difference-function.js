@@ -1,4 +1,6 @@
-/* Create a function that takes two arrays and returns an array of the symmetric difference (elements that are in either array but not in both) */
+/*
+Create a function that takes two arrays and returns an array of the symmetric difference (elements that are in either array but not in both).
+*/
 
 function diffArray(arr1, arr2) {
     // Use the filter method to find elements that are in arr1 but not in arr2, and vice versa, then concatenate the results

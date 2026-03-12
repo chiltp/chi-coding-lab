@@ -1,3 +1,17 @@
+/*
+Write a function that takes in an array of student scores and a single student score, and returns a message that includes the class average, the student's grade, and whether the student passed or failed the course. Use the following grading scale:
+A+: 100
+A: 90-99
+B: 80-89
+C: 70-79
+D: 60-69
+F: Below 60
+
+Example:
+studentMsg([90, 80, 70], 85) should return "Class average: 80. Your grade: A. You passed the course."
+studentMsg([60, 70, 80], 55) should return "Class average: 70. Your grade: F. You failed the course."
+*/
+
 function getAverage (arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {

@@ -1,5 +1,6 @@
-
-/* Write a function that takes a number as an argument and returns the sum of all prime numbers that are less than or equal to that number. */
+/*
+Write a function that takes a number as an argument and returns the sum of all prime numbers that are less than or equal to that number.
+*/
 
 // Helper function to check if a number is prime
 function isPrime(n){

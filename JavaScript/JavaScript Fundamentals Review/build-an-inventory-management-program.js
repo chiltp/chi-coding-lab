@@ -1,4 +1,5 @@
-/*Build an inventory management program that allows users to add products, remove products, and view the current inventory. The program should have the following functions:
+/*
+Build an inventory management program that allows users to add products, remove products, and view the current inventory. The program should have the following functions:
 1. addProduct(product): This function takes a product object with properties name and quantity, and adds it to the inventory. If the product already exists, it should update the quantity.
 2. removeProduct(name, quantity): This function takes a product name and quantity, and removes the specified quantity from the inventory. If the product does not exist or if there is not enough quantity available, it should display an appropriate message.
 

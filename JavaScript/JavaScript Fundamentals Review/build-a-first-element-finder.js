@@ -1,4 +1,5 @@
-/* Write a function that takes an array and a function as arguments. The function should return the first element in the array that passes a truth test (i.e., the function returns true when passed the element). If no element passes the test, return undefined.
+/*
+Write a function that takes an array and a function as arguments. The function should return the first element in the array that passes a truth test (i.e., the function returns true when passed the element). If no element passes the test, return undefined.
 */
 
 function findElement(arr, func) {

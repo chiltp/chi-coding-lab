@@ -1,4 +1,6 @@
-/* Find the index to insert a number in a sorted array */
+/*
+Find the index to insert a number in a sorted array
+*/
 
 function getIndexToIns(arr, num) {
     const index = arr
