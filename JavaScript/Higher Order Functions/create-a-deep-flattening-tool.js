@@ -1,3 +1,8 @@
+/*
+Flatten a nested array. You must account for varying levels of nesting.
+For example, steamrollArray([[["a"]], [["b"]]]) should return ["a", "b"].
+*/
+
 function steamrollArray(arr) {
     // this is our "counting table" where we place all individual pastries
     let result = [];
