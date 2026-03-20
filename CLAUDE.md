@@ -12,7 +12,7 @@ A personal JavaScript learning lab following the freeCodeCamp v9 curriculum. Con
 node "JavaScript/Functions/build-a-leap-year-calculator.js"
 ```
 
-There is no test framework — exercises are verified by running them directly with Node and checking console output against expected values in comments.
+Folder names contain spaces — always quote paths. There is no test framework — exercises are verified by running them directly with Node and checking console output against expected values in comments.
 
 ## Repository Structure
 
