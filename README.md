@@ -1,43 +1,43 @@
-# 🧀 chi-coding-lab
+# chi-coding-lab 🧀
 
-A personal coding lab where I grow into JavaScript and web development through freeCodeCamp, building clean code and thoughtful habits, and making sure every bug passes my test cases before it gets to stay.
+**A growing collection of JavaScript exercises** organized by topic, built from scratch while working through the freeCodeCamp v9 curriculum. Every file is a standalone solution — no frameworks, no dependencies — just clean JS with inline explanations and `console.log` test cases.
 
-## 🎯 Goals
+## What's Inside
 
-* Build strong foundations in **JavaScript**
-* Practice problem-solving through real coding challenges
-* Write clean, readable, and well-structured code
-* Track my learning progress over time
-* Celebrate small wins when something finally works 🎉
-* Maintain a consistent daily coding streak through automation
+```
+JavaScript/
+├── Arrays/                           # Array manipulation, iteration patterns
+├── Functions/                        # Pure functions, converters, validators
+├── Objects/                          # Data modeling, lookup algorithms
+├── Higher Order Functions/           # map/filter/reduce, recursion, LCM/GCD
+├── JavaScript Fundamentals Review/   # Refactored fundamentals with ES6+
+└── Daily Code Challenge/             # Date-prefixed daily practice (2026-01-04 → …)
+```
 
-## 📘 What I’m Learning
+Each exercise includes:
+- A clear problem statement in comments
+- Step-by-step solution with real-world analogies
+- Test cases with expected output
 
-I’m currently following the **freeCodeCamp JavaScript curriculum (v9)** and working through hands-on challenges that cover:
+## Skills Demonstrated
 
-* **JavaScript Fundamentals** — variables, data types, operators, and core syntax
-* **Control Flow & Logic** — conditionals (`if/else`, `switch`) and loops (`for`, `while`)
-* **Functions & Scope** — reusable functions, arrow functions, and understanding scope
-* **Arrays & Objects** — working with structured data and collections
-* **String & Number Methods** — built-in methods for data manipulation
-* **ES6+ Features** — `let`, `const`, arrow functions, destructuring, and template literals
-* **Debugging & Problem Solving** — identifying bugs and improving algorithmic thinking
-* **Basic DOM Concepts** — understanding how JavaScript interacts with web pages
+- **Problem solving** — algorithmic challenges (prime sums, symmetric differences, deep flattening, sorted index finding)
+- **Functional programming** — higher-order functions, recursion, immutable patterns
+- **Clean code** — descriptive naming, modular functions, thorough inline documentation
+- **Consistency** — daily coding practice maintained via GitHub Actions automation
 
-## 🧰 What I’m Using
+## Run Any Exercise
 
-* **JavaScript (ES6+)**
-* **Git & GitHub** for version control
-* **Markdown** for documentation
-* **GitHub Actions** to automate daily streak commits
+```bash
+node "JavaScript/Higher Order Functions/build-a-symmetric-difference-function.js"
+```
 
-## 🔄 Daily Coding Streak
+No setup required — just Node.js.
 
-This repository includes a GitHub Actions workflow that automatically commits a Markdown file daily to maintain coding consistency and visualize progress.
+## About This Repo
 
-## 🚀 How I Use This Repo
+This is my hands-on coding lab where I build, break, and refactor JavaScript daily. I follow the freeCodeCamp curriculum but write every solution from scratch with my own explanations — future me will thank present me 😄
 
-* Each folder contains practice exercises and solutions from freeCodeCamp
-* I add notes to explain concepts in my own words (future me will thank present me)
-* I revisit old code to refactor, improve readability, and apply new techniques as I learn more
-* I track consistency through an automated streak workflow
+I regularly revisit older exercises to refactor with new techniques as I learn them. Small wins count, and every commit is a step forward.
+
+A GitHub Actions workflow commits a daily coding log to `coding-notes/` to maintain streak visibility.
