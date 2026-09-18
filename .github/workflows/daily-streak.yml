@@ -19,6 +19,8 @@ jobs:
       # Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: streak-bot
 
       # Generate coding note
       - name: Generate coding notes
